@@ -16,9 +16,9 @@
     var firstLetter = names[i].charAt(0).toLowerCase();
 
     if (firstLetter === "j") {
-      SpeakGoodBye.speak(names[i]);
+      speakGoodbye.speak(names[i]);
     } else {
-      SpeakHello.speak(names[i]);
+      speakHello.speak(names[i]);
     }
   }
 })();
